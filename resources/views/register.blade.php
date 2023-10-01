@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrasi - Monitoring dan Pendataan Barang Lab</title>
     <style>
+        /* Gaya Dasar Halaman */
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f7f7f7; /* Warna latar belakang */
@@ -85,15 +86,19 @@
     <div class="container">
         <h2>Formulir Registrasi</h2>
         <form action="process_register.php" method="post">
+            <!-- Label dan input untuk username -->
             <label for="username">Username:</label>
             <input type="text" name="username" id="username" required>
 
+            <!-- Label dan Input untuk password -->
             <label for="password">Password:</label>
             <input type="password" name="password" id="password" required>
 
+            <!-- Label dan Input untuk konfirmasi password -->
             <label for="confirm_password">Konfirmasi Password:</label>
             <input type="password" name="confirm_password" id="confirm_password" required>
 
+            <!-- Tombol submit formulir -->
             <button type="submit">Daftar</button>
         </form>
     </div>
