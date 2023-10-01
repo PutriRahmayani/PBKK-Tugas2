@@ -12,18 +12,18 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Routr::get('/welcome ', function () {
-    return view('welcome');
+Route::get('/welcome', function () {
+    return view('welcome'); // Mengarahkan ke halaman welcome.blade.php
 });
 
 Route::get('/login', function () {
-    return view('login');
+    return view('login'); // Mengarahkan ke halaman login.blade.php
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('home'); // Mengarahkan ke halaman home.blade.php
 });
 
 Route::get('/register', function () {
-    return view('register');
+    return view('register'); // Mengarahkan ke halaman register.blade.php
 });
