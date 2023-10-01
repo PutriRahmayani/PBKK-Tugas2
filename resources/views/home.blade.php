@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage - Monitoring dan Pendataan Barang Lab</title>
     <style>
+         /*gaya dasar halaman */
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f7f7f7;
@@ -14,7 +15,7 @@
             flex-wrap: wrap;
             color: #213555;
         }
-
+        /*gaya header*
         header {
             background-color: #4F709C;
             color: #fff;
@@ -109,7 +110,7 @@
             <li><a href="#">Profil</a></li>
         </ul>
     </div>
-    <div class="container">
+    <div class="container"> <!-- Konten Utama -->
         <h2>Selamat Datang di Sistem Monitoring dan Pendataan Barang Lab</h2>
         <p>
             Kami menyediakan sistem yang canggih dan efisien untuk memantau, mengelola, dan mencatat semua barang dan peralatan laboratorium Anda.
