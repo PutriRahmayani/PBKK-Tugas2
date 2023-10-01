@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <style>
+        /*Gaya Dasar Halaman */
         body {
             font-family: Arial, sans-serif;
             background-color: #f7f7f7;
@@ -16,6 +17,7 @@
             height: 100vh;
         }
 
+        /* Gaya Kontainer Login */
         .login-container {
             background-color: #D8C4B6; /* Warna latar container */
             padding: 20px;
@@ -30,6 +32,7 @@
             margin-bottom: 25px;
         }
 
+        /* Gaya input teks dan password */
         .login-form input[type="text"],
         .login-form input[type="password"] {
             width: 90%;
@@ -57,9 +60,9 @@
     <div class="login-container">
         <h2>Login</h2>
         <form class="login-form" action="process_login.php" method="post">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Login</button>
+            <input type="text" name="username" placeholder="Username" required> <!-- Untuk Menginput Username -->
+            <input type="password" name="password" placeholder="Password" required> <!-- Untuk Menginput Password -->
+            <button type="submit">Login</button> <!-- Tombol Login -->
         </form>
     </div>
 </body>
