@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+Routr::get('/welcome ', function () {
+    return view('welcome');
+});
+
 Route::get('/login', function () {
     return view('login');
 });
